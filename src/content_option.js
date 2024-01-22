@@ -14,7 +14,7 @@ const introdata = {
         fifth: "",
         
     },
-    description: "Dedicated to writing code that can actually change peoples' lives and solve  complex issues",
+    description: "Am Dedicated to writing code that can actually change peoples' lives and also solve  complex issues",
     your_img_url: "/images/works/me_1.jpeg",
 };
 
