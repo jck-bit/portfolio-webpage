@@ -7,27 +7,29 @@ import styled from "styled-components";
 export const Nav = styled.nav`
 	background: transparent;
     margin-bottom: 10px;
-	height: 75px;
+	height: 50px;
 	display: flex;
-	position:'stick';
+	position:'sticky';
 	justify-content: space-between;
-	padding: 0.2rem calc((100vw - 1000px) / 2);
+	margin-left:auto;
+	align-items: center;
 	
-	/* Third Nav */
-	/* justify-content: flex-start; */
 `;
 
 export const NavLink = styled(Link)`
 	color: #808080;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	text-decoration: none;
-	padding-right: 10px;
+	padding-right: 15px;
 	height: 100%;
 	cursor: pointer;
 	&.active {
 		color: #000000;
 	}
+	margin-top:11px;
+
 `;
 
 export const Bars = styled(FaBars)`
