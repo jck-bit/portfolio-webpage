@@ -1,21 +1,22 @@
 :root {
-    --bg-color: #c6b194;
-    --primary-color: #000000;
-    --secondary-color: #fff;
-    --text-color: #fff;
-    --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
-}
-
-[data-theme="light"] {
-    --bg-color: #ffffff;
+   --bg-color: #ffffff;
     --primary-color: #ffffff;
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgb(255 255 255 / 70%);
+}
+
+[data-theme="light"] {
+    
+    --bg-color: #000000;
+    --primary-color: #000000;
+    --secondary-color: #fff;
+    --text-color: #fff;
+    --text-color-2: #fff;
+    --text-color-3: rgb(204, 0, 0);
+    --overlay-color: rgb(12 12 12 / 63%);
 }
 
 html,
@@ -91,29 +92,8 @@ code {
     padding: 0px 15px;
 }
 
-/* Themetoggle.css */
-
-.rotate {
-    transition: transform 0.5s ease-in-out;
+/* Override the text color of the Navbar */
+.navbar-color {
+    color: var(--text-color) !important;
   }
   
-  .spin {
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-
-
-
-  .checked {
-    color: #fa0;
-    font-weight: bold;
-  }

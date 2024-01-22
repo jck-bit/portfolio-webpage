@@ -12,7 +12,7 @@ const Themetoggle = () => {
   }, [theme]);
   return (
     <div className="nav_ac" onClick={themetoggle}>
-      {theme === "dark" ? <div className="checked"><SunIcon fontSize={20}/></div> : <MoonIcon />}
+      {theme === "dark" ? <div className="checked"><SunIcon/></div> : <MoonIcon />}
     </div>
   );
 };
