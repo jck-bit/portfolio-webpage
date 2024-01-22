@@ -10,11 +10,11 @@ import { Container } from "react-bootstrap";
 
 const NavbarE = () => {
 	return (
-		<Navbar expand='lg'>
+		<Navbar expand='lg' className="navbar-color">
 			<Container>
-				<Navbar.Brand href="/home" className="mb-3">Home</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Collapse id="basic-navbar-nav">
+				<Navbar.Brand href="/home" className="mb-3 navbar-color">Home</Navbar.Brand>
+				<Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-color"/>
+				<Navbar.Collapse id="basic-navbar-nav" className="navbar-color">
 				<Nav>
 					<NavMenu>
 					  <NavLink to="/about"  activeStyle>
