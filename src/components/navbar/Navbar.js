@@ -23,7 +23,9 @@ const NavbarE = () => {
 					  <NavLink to="/projects" activeStyle>
 						projects
 					   </NavLink>
-					   <NavLink to="/contact" activeStyle></NavLink>
+					   <NavLink to="/contact" activeStyle>
+						contact
+					   </NavLink>
 					   <ThemeToggleButton />			            
 					</NavMenu>
 				</Nav>

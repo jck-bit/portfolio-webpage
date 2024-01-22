@@ -26,7 +26,10 @@ export const NavLink = styled(Link)`
 	height: 100%;
 	cursor: pointer;
 	&.active {
-		color: #000000;
+	  text-decoration: underline;
+	  text-underline-offset: 5px;
+
+	  
 	}
 	margin-top:11px;
 
