@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
+    
     <HelmetProvider>
       <section id="home" className="home">
         <Helmet>
@@ -43,7 +44,7 @@ export const Home = () => {
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
-                    <div id="button_h" className="ac_btn btn ">
+                    <div id="button_h" className="ac_btn btn mb-2">
                       Projects
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -51,7 +52,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to="/about">
-                    <div id="button_h" className="ac_btn btn">
+                    <div id="button_h" className="ac_btn btn mb-2">
                       About Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -59,7 +60,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
+                    <div id="button_h" className="ac_btn btn mb-2">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>

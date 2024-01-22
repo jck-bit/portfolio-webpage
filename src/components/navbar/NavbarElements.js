@@ -34,6 +34,7 @@ export const NavLink = styled(Link)`
 
 export const Bars = styled(FaBars)`
 	display: none;
+	
 	@media screen and (max-width: 768px) {
 		display: block;
 		position: absolute;
@@ -57,7 +58,7 @@ white-space: nowrap; */
 	@media screen and (max-width: 768px) {
 	display: flex;
 		margin-left:0;
-		align-items: center;
+		align-items: flex-start;
     margin-right: -24px;
     flex-wrap: nowrap;
     flex-direction: column;
