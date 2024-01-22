@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Dependency directories
+yarn-error.log
+
+# dotenv environment variables file
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Mac OS
+.DS_Store
+
+# Editor-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Jest coverage
+coverage/
