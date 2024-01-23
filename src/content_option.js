@@ -10,8 +10,9 @@ const introdata = {
         first: "Technologist",
         second: "Visionary",
         third: "Linux enthusiast",
-        fourth: "Web Developer",
-        fifth: "",
+        fourth: "Frontend Developer",
+        fifth: "Backend Developer",
+        sixth: "",
         
     },
     description: "Am Dedicated to writing code that can actually change peoples' lives and also solve  complex issues",

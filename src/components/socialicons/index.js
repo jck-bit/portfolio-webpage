@@ -9,9 +9,11 @@ import {
   FaTwitch,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
+import { Container } from "react-bootstrap"
 
 export const Socialicons = (params) => {
   return (
+    <Container>
     <div className="stick_follow_icon">
       <ul>
         {socialprofils.twitter && (
@@ -59,5 +61,6 @@ export const Socialicons = (params) => {
       </ul>
       <p>Follow Me</p>
     </div>
+    </Container>
   );
 };
