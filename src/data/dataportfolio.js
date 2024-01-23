@@ -1,6 +1,20 @@
 
 
-const dataportfolio = [{
+const dataportfolio = [
+{
+       image: "/images/works/rawg.png",
+       image2: "/images/works/rawg.png",
+       description: "Rawg is a game store",
+       p_tag: "used Stripe Api to make game purchases (mock purchases), then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
+       source_code: "",
+       deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
+       title:"Rawg Store",
+       id: 3453,
+       stack: "React, SCSS, HTML",
+       year:2023,
+       platform: "web"
+},
+{
     image: "/images/works/threats.jpg",
     image2: "/images/works/threats.jpg",
     description: "This is a social media project developed with Python Django",
@@ -33,7 +47,7 @@ const dataportfolio = [{
      description: "Stockify is a stock market website",
      p_tag: "stockify is a commercial website that uses React",
      source_code: "https://github.com/jck-bit/stockify",
-     deployment:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",  //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     deployment:"",
      title:"Stockify Web Commerce",
      id: 3455,
      stack: "React, CSS, HTML",
