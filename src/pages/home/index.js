@@ -4,10 +4,11 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Transition from "../../components/Transition";
 
 export const Home = () => {
   return (
-    
+   <Transition direction="down">
     <HelmetProvider>
       <section id="home" className="home">
         <Helmet>
@@ -74,5 +75,6 @@ export const Home = () => {
         </div>
       </section>
     </HelmetProvider>
+    </Transition>
   );
 };
