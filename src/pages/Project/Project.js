@@ -27,19 +27,25 @@ const Project = () => {
         <P>{project.p_tag}</P>
         <br />
         <List style={{padding:"0" }}>
-          <ListItem display={'flex'} alignItems={'baseline'}>
-            <Meta>Link: </Meta>
-            <Link href={project.link}>
-              {project.link} <ExternalLinkIcon />
-            </Link>
-          </ListItem>
-          <ListItem  display={'flex'} alignItems={'baseline'}>
+        <ListItem  display={'flex'} alignItems={'baseline'}>
             <Meta>Platform :</Meta>
             <span>{project.platform}</span>
           </ListItem>
           <ListItem display={'flex'} alignItems={'baseline'}>
             <Meta>Stack: </Meta>
             <span>{project.stack}</span>
+          </ListItem>
+          <ListItem display={'flex'} alignItems={'baseline'}>
+            <Meta>Deployment: </Meta>
+            <Link href={project.deployment} textDecoration={'none'}>
+              {project.deployment} <ExternalLinkIcon />
+            </Link>
+          </ListItem>
+          <ListItem display={'flex'} alignItems={'baseline'}>
+            <Meta>source Code: </Meta>
+            <Link href={project.source_code} textDecoration={'none'}>
+              {project.source_code} <ExternalLinkIcon />
+            </Link>
           </ListItem>
         </List>
         <br />
