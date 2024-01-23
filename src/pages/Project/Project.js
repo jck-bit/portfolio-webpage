@@ -22,22 +22,22 @@ const Project = () => {
     <div style={{ margin: '0 auto', maxWidth: '70%' }}>
       <Container>
         <Title>
-          {project.title} <Badge>{project.year}</Badge>
+          {project.title} <Badge style={{marginLeft:"4px"}}>{project.year}</Badge>
         </Title>
         <P>{project.p_tag}</P>
         <br />
         <List style={{padding:"0" }}>
-          <ListItem style={{display:"flex", alignItems:"center"}}>
+          <ListItem display={'flex'} alignItems={'baseline'}>
             <Meta>Link: </Meta>
             <Link href={project.link}>
               {project.link} <ExternalLinkIcon />
             </Link>
           </ListItem>
-          <ListItem style={{display:"flex", alignItems:"center"}}>
+          <ListItem  display={'flex'} alignItems={'baseline'}>
             <Meta>Platform :</Meta>
             <span>{project.platform}</span>
           </ListItem>
-          <ListItem style={{display:"flex", alignItems:"center"}}>
+          <ListItem display={'flex'} alignItems={'baseline'}>
             <Meta>Stack: </Meta>
             <span>{project.stack}</span>
           </ListItem>

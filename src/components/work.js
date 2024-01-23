@@ -4,7 +4,7 @@ import Transition from "./Transition";
 
 export const Title = ({ children }) => (
     <Transition direction="left">
-    <Box>
+    <Box display={"flex"}>
       <a href="/portfolio">
         Projects
       </a>
@@ -12,7 +12,7 @@ export const Title = ({ children }) => (
         {' '}
         <ChevronRightIcon/>{' '}
     </span>
-    <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
+    <Heading as="h3" display="flex" paddingLeft={"2px"} fontSize={20} mb={4}>
         { children }    
     </Heading>
 </Box>
