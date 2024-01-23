@@ -11,6 +11,7 @@ import {
 
 export const About = () => {
   return (
+    
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
@@ -74,5 +75,6 @@ export const About = () => {
         </Row>
       </Container>
     </HelmetProvider>
+    
   );
 };

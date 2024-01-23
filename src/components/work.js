@@ -1,7 +1,9 @@
 import { Heading, Box, Image, Badge } from "@chakra-ui/react";
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import Transition from "./Transition";
 
 export const Title = ({ children }) => (
+    <Transition direction="left">
     <Box>
       <a href="/portfolio">
         Projects
@@ -14,6 +16,7 @@ export const Title = ({ children }) => (
         { children }    
     </Heading>
 </Box>
+</Transition>
 )
 
 export const WorkImage = ({ src, alt }) => (

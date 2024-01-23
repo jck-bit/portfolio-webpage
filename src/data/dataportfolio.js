@@ -12,6 +12,7 @@ const dataportfolio = [{
     year:2023,
     platform: "web"
 },
+
 {
     image: "/images/works/hackathon1.png",
     image2: "/images/works/hackathon2.png",
@@ -19,11 +20,23 @@ const dataportfolio = [{
     p_tag: "Implemented dynamic visual effects Day and night transitions for an immersive user interface Realistic rain animations synchronized with weather conditions, enhancing the app's visual appea",
     link: "https://github.com/jck-bit/Hackathon_music_app",
     title:"Hackathon Music Player",
-    id: 2,
+    id: 5550556335,
     stack: "Typescript, HTML, SCSS, CSS",
     year:2023,
     platform: "web"
 },
+{
+    image: "/images/works/stockify1.png",
+     image2: "/images/works/stockify2.png",
+     description: "Stockify is a stock market website",
+     p_tag: "stockify is a commercial website that uses React",
+     link: "https://github.com/jck-bit/stockify",
+     title:"Stockify Web Commerce",
+     id: 3455,
+     stack: "React, CSS, HTML",
+     year:2023,
+     platform:"web"
+ },
 ];
   
   export default dataportfolio;

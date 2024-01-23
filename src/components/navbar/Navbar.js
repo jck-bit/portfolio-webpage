@@ -7,12 +7,15 @@ import {
 import ThemeToggleButton from "../themetoggle";
 import Navbar from 'react-bootstrap/Navbar';
 import { Container } from "react-bootstrap";
+import Transition from "../Transition";
 
-const NavbarE = () => {
+const NavbarE = ({props}) => {
 	return (
-		<Navbar expand='lg' className="navbar-color">
+		<Navbar expand='lg' className="navbar-color mb-5">
 			<Container>
-				<Navbar.Brand href="/home" className="mb-3 navbar-color">Home</Navbar.Brand>
+			<Transition direction="left" durationIn={0.9} durationOut={0.9} className="">
+				<Navbar.Brand href="/home" className=" navbar-color">Home</Navbar.Brand>
+			</Transition>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-color"/>
 				<Navbar.Collapse id="basic-navbar-nav" className="navbar-color">
 				<Nav>
