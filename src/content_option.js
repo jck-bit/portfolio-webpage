@@ -24,20 +24,20 @@ const dataabout = {
     aboutme: "I am a dynamic and versatile software developer with a passion for solving complex problems and crafting elegant solutions. My journey in the world of software development has been marked by a relentless pursuit of knowledge, a commitment to excellence  and an unwavering belief in the power of technology to drive innovation.One of my defining traits as a software developer is my   language-agnostic approach.",
 };
 const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
+        jobtitle: "1",
+        where: "Personal Projects",
         date: "2023",
     },
     {
-        jobtitle: "Example 2",
-        where: "Micosoft",
-        date: "2022",
+        jobtitle: "2",
+        where: "Freelance",
+        date: "2021-2022",
     },
-    {
-        jobtitle: "Example 3",
-        where: "Meta",
-        date: "2021",
-    },
+    // {
+    //     jobtitle: "Example 3",
+    //     where: "Meta",
+    //     date: "2021",
+    // },
 ];
 
 const skills = [{
@@ -52,7 +52,7 @@ const skills = [{
         name: "Javascript",
     },
     {
-        name: "Web-Development",
+        name: "HTML",
     },
 
     {

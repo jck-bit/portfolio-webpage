@@ -67,32 +67,30 @@
 }
 
 .skill-card {
-    width: 150px; /* Adjust the width based on your desired size */
-    height: 80px; /* Set a fixed height to make all cards the same size */
+    width: 140px; /* Adjust the width based on your desired size */
+    height: 70px; /* Set a fixed height to make all cards the same size */
     margin: 10px; /* Add some margin between the cards */
-    border: 1px solid #00000000;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(101, 255, 114, 0.863);
+    border-radius: 4px;
     padding: 15px;
-    background-color: #1efc43cb;
-    position: relative; /* Add relative positioning for the shadow illusion */
-    transform: perspective(1px) translateZ(0); /* Add transform for hovering effect */
+    background-color: #fff;
+    position: relative; 
+    transform: perspective(1px) translateZ(0);
     transition: transform 0.3s ease; /* Add transition for smooth animation */
   
-    display: flex; /* Use flex to align items */
+    display: flex; 
     flex-direction: column; /* Align items vertically */
     justify-content: center; /* Center items vertically */
     align-items: center; /* Center items horizontally */
   
-    /* Additional styling for the text */
+    
     text-align: center;
     font-size: 14px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
   .skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgb(123, 248, 112);
+    transform: translateY(-3px);
+    
 }
 
 .card-title {
