@@ -37,14 +37,14 @@ const Project = () => {
           </ListItem>
           <ListItem display={'flex'} alignItems={'baseline'}>
             <Meta>Deployment: </Meta>
-            <Link href={project.deployment} textDecoration={'none'}>
-              {project.deployment} <ExternalLinkIcon />
+            <Link href={project.deployment} textDecoration={'none'} color={'blue'}>
+              {project.deployment} <ExternalLinkIcon marginLeft={"10px"}/>
             </Link>
           </ListItem>
           <ListItem display={'flex'} alignItems={'baseline'}>
             <Meta>source Code: </Meta>
-            <Link href={project.source_code} textDecoration={'none'}>
-              {project.source_code} <ExternalLinkIcon />
+            <Link href={project.source_code} textDecoration={'none'} color={'blue'}>
+              {project.source_code} <ExternalLinkIcon marginLeft={"10px"}/>
             </Link>
           </ListItem>
         </List>

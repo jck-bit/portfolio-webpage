@@ -11,7 +11,7 @@ import Transition from "../Transition";
 
 const NavbarE = ({props}) => {
 	return (
-		<Navbar expand='lg' className="navbar-color mb-2">
+		<Navbar expand='md' className="navbar-color mb-2">
 			<Container>
 			<Transition direction="left" durationIn={0.9} durationOut={0.9} >
 				<Navbar.Brand href="/home" className=" navbar-color">Home</Navbar.Brand>

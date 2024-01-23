@@ -2,17 +2,17 @@
 
 const dataportfolio = [
 {
-       image: "/images/works/rawg.png",
-       image2: "/images/works/rawg.png",
-       description: "Rawg is a game store",
-       p_tag: "used Stripe Api to make game purchases (mock purchases), then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
-       source_code: "",
-       deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
-       title:"Rawg Store",
-       id: 3453,
-       stack: "React, SCSS, HTML",
-       year:2023,
-       platform: "web"
+    image: "/images/works/rawg.png",
+    image2: "/images/works/rawg.png",
+    description: "Rawg is a game store",
+    p_tag: "used Stripe Api to make game purchases (mock purchases), then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
+    source_code: "",
+    deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
+    title:"Rawg Store",
+    id: 3453,
+    stack: "React, SCSS, HTML",
+    year:2023,
+    platform: "web"
 },
 {
     image: "/images/works/threats.jpg",
@@ -43,16 +43,16 @@ const dataportfolio = [
 },
 {
     image: "/images/works/stockify1.png",
-     image2: "/images/works/stockify2.png",
-     description: "Stockify is a stock market website",
-     p_tag: "stockify is a commercial website that uses React",
-     source_code: "https://github.com/jck-bit/stockify",
-     deployment:"",
-     title:"Stockify Web Commerce",
-     id: 3455,
-     stack: "React, CSS, HTML",
-     year:2023,
-     platform:"web"
+    image2: "/images/works/stockify2.png",
+    description: "An online store for managing user sales and products' stocks users sales",
+    p_tag: "An online store for managing user sales and products' stocks, users can create a product, edit it and sell it, when sales are made, there are bar graphs to demonstrate sales amounts againt time.",
+    source_code: "https://github.com/jck-bit/stockify",
+    deployment:"https://stockify-c1t2.vercel.app/",
+    title:"Stockify Web Commerce",
+    id: 345556,
+    stack: "React, CSS, HTML",
+    year:2022,
+    platform:"web"
  },
 ];
   
