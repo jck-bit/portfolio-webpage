@@ -5,7 +5,7 @@ It utilises a number of different technologies to create an interface
 ## Features:
 - Dark and light mode with a navbar toggle
 - Easy access to my works, GitHub and LinkedIn
-- Information about me, including a biography and achievements
+- Information about me
 - pure javascript
 
 ##  Stack
