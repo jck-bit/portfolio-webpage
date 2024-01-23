@@ -5,10 +5,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-	
 	color:var(--text-color) !important;
-    margin-bottom: 10px;
-	height: 50px;
 	display: flex;
 	position:'sticky';
 	justify-content: space-between;
@@ -85,7 +82,6 @@ export const NavBtnLink = styled(Link)`
 	border-radius: 4px;
 	background: #808080;
 	padding: 10px 22px;
-	margin-top:10px;
 	color: #000000;
 	outline: none;
 	border: none;
