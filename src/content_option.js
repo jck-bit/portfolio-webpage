@@ -33,11 +33,6 @@ const worktimeline = [{
         where: "Freelance",
         date: "2021-2022",
     },
-    // {
-    //     jobtitle: "Example 3",
-    //     where: "Meta",
-    //     date: "2021",
-    // },
 ];
 
 const skills = [{
@@ -60,24 +55,6 @@ const skills = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "This is a social media project developed with Python Django",
-        link: "#",
-        title:"Threats",
-        id: 1,
-    
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "",
-        link: "Music palyer for Africa's talking hackathon",
-        title:"Africa's Talking Hackathon Music Player",
-        id: 2,
-        
-    },
-];
-
 const contactConfig = {
     YOUR_EMAIL: "jckkinyanjui@gmail.com",
     description: "Looking forward to hearing from you!",
@@ -95,7 +72,6 @@ const socialprofils = {
 export {
     meta,
     dataabout,
-    dataportfolio,
     worktimeline,
     skills,
     introdata,
