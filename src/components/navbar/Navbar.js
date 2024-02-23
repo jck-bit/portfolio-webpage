@@ -29,7 +29,7 @@ const NavbarE = ({props}) => {
 					   <NavLink to="/contact" activeStyle>
 						contact
 					   </NavLink>
-					   <ThemeToggleButton />			            
+					   <ThemeToggleButton/>			            
 					</NavMenu>
 				</Nav>
 				</Navbar.Collapse>
