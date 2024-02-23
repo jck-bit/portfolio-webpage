@@ -34,11 +34,11 @@ const Themetoggle = () => {
       variants={animationConfig}
     >
       {theme === "dark" ? (
-        <div className="checked">
+        <div className="checked" style={{marginTop:'5px'}}>
           <SunIcon fontSize={20} />
         </div>
       ) : (
-        <div className="checked">
+        <div className="checked" style={{marginTop:'5px'}}>
           <MoonIcon fontSize={20} />
         </div>
       )}

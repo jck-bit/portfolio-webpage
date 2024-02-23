@@ -58,7 +58,7 @@ const dataportfolio = [
     image: "/images/works/django.png",
     image2: "/images/works/django.png",
     description: "API optimization Techniques",
-    p_tag: "This project showcases various optimization techniques implemented in a Django REST Framework API. It demonstrates pagination, caching, asynchronous logging, payload compression, and connection pooling. Through practical implementations, the project aims to illustrate the efficiency and scalability of these techniques in enhancing API performance and responsiveness. The project includes examples of integrating external APIs, handling large datasets, and leveraging Django features such as middleware, Celery for asynchronous tasks, and Django ORM for database interactions. It serves as a comprehensive demonstration of best practices in API optimization within the Django ecosystem.",
+    p_tag: "This project showcases various optimization techniques implemented in a Django REST Framework API. It demonstrates pagination, caching, asynchronous logging, payload compression, and connection pooling. Through practical implementations, the project aims to illustrate the efficiency and scalability of these techniques in enhancing API performance and responsiveness.",
     source_code: "https://github.com/jck-bit/Optimizing-APIs",
     deployment:"https://github.com/jck-bit/Optimizing-APIs",
     title:"Django Rest API Optimization",
