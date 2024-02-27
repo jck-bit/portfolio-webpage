@@ -1,50 +1,50 @@
 :root {
-   --bg-color: #ffffff;
-    --primary-color: #ffffff;
-    --secondary-color: #000;
-    --text-color: #000;
-    --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(255 255 255 / 70%);
+  --bg-color: #ffffff;
+   --primary-color: #ffffff;
+   --secondary-color: #000;
+   --text-color: #000;
+   --text-color-2: #000;
+   --text-color-3: rgb(204, 0, 0);
+   --overlay-color: rgb(255 255 255 / 70%);
 }
 
 [data-theme="light"] {
-    
-    --bg-color: #000000;
-    --primary-color: #000000;
-    --secondary-color: #fff;
-    --text-color: #fff;
-    --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+   
+   --bg-color: #000000;
+   --primary-color: #000000;
+   --secondary-color: #fff;
+   --text-color: #fff;
+   --text-color-2: #fff;
+   --text-color-3: rgb(204, 0, 0);
+   --overlay-color: rgb(12 12 12 / 63%);
 }
 
 html,
 body {
-    height: 100%;
-    font-family: 'Darker Grotesque', sans-serif;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+   height: 100%;
+   font-family: 'Darker Grotesque', sans-serif;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
 
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: visible;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Darker Grotesque', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    border-left: 10px solid var(--primary-color);
-    border-right: 10px solid var(--primary-color);
-    overflow-wrap: break-word;
+   margin: 0;
+   height: 100%;
+   overflow-x: hidden;
+   overflow-y: visible;
+   background-color: var(--bg-color);
+   color: var(--text-color);
+   font-family: 'Darker Grotesque', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   border-left: 10px solid var(--primary-color);
+   border-right: 10px solid var(--primary-color);
+   overflow-wrap: break-word;
 }
 
 ul {
-    list-style: none;
+   list-style: none;
 }
 
 h1,
@@ -53,51 +53,51 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Darker Grotesque', sans-serif;
+   font-family: 'Darker Grotesque', sans-serif;
 }
 
 a,
 a:hover {
-    color: var(--text-color);
+   color: var(--text-color);
 }
 
 p {
-    word-break: break-word;
-    hyphens: auto;
+   word-break: break-word;
+   hyphens: auto;
 }
 
 .ovhidden {
-    overflow: hidden;
+   overflow: hidden;
 }
 
 .text_2,
 .text_2:hover {
-    color: var(--text-color-2);
+   color: var(--text-color-2);
 }
 
 code {
-    font-family: source-code-pro,Sora Menlo, Monaco, Consolas, 'Courier New', monospace;
+   font-family: source-code-pro,Sora Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .color_pr {
-    color: var(--primary-color) !important;
+   color: var(--primary-color) !important;
 }
 
 .color_sec {
-    color: var(--secondary-color);
+   color: var(--secondary-color);
 }
 
 /* Add these styles to your CSS file or component */
 
 
 .nav_ac{
-    background-color: transparent;
-    cursor: pointer;
-    padding: 0px 15px;
+   background-color: transparent;
+   cursor: pointer;
+   padding: 0px 15px;
 }
 
 /* Override the text color of the Navbar */
 .navbar-color {
-    color: var(--text-color) !important;
-  }
-  
+   color: var(--text-color) !important;
+ }
+ 

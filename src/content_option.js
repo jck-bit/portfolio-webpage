@@ -5,17 +5,17 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm Jack Kinyanjui",
+    title: "Hey, I'm Jack Kinyanjui",
     animated: {
         first: "Technologist",
         second: "Visionary",
         third: "Linux enthusiast",
         fourth: "Frontend Developer",
         fifth: "Backend Developer",
-        sixth: "",
+        sixth: "Futuristic",
         
     },
-    description: "Am Dedicated to writing code that can actually change peoples' lives and also solve  complex issues",
+    description: "My aim is to write code and change peoples' lives. Thanks for being here 🍃.",
     your_img_url: "/images/works/me_1.jpeg",
 };
 
@@ -44,7 +44,13 @@ const skills = [{
     },
     
     {
+        name: "Typescript",
+    },
+    {
         name: "Javascript",
+    },
+    {
+        name: "Rust",
     },
     {
         name: "HTML",
