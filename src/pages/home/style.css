@@ -235,4 +235,6 @@ section {
 
 .typewriter-text {
     color: rgb(14, 225, 67);
+    font-size: 1.2rem !important;
+    line-height: 1.1rem;
 }
