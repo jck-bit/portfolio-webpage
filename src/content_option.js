@@ -15,7 +15,7 @@ const introdata = {
         sixth: "Futuristic",
         
     },
-    description: "My aim is to write code and change peoples' lives. Thanks for being here 🍃.",
+    description: "My aim is to write code that can change peoples' lives. Thanks for being here 🍃.",
     your_img_url: "/images/works/me_1.jpeg",
 };
 

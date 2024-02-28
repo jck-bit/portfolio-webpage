@@ -23,7 +23,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
   return (
     <Container>
-      <Router>
+      
         <ScrollToTop>
         <NavbarE/>
           <Routes>
@@ -31,8 +31,6 @@ export default function App() {
         <Route path="/project/:projectId" element={<Project />} />
       </Routes>
         </ScrollToTop>
-
-      </Router>
     </Container>
   );
 }

@@ -25,7 +25,7 @@ body {
    /* font-family: 'Darker Grotesque', sans-serif; */
    font-family: "JetBrains Mono", monospace;
    font-optical-sizing: auto;
-   font-size: .8125rem;
+   font-size: .8185rem;
    line-height: 1.1rem;
    overflow-wrap: break-word;
    word-wrap: break-word;
@@ -116,3 +116,39 @@ code {
    color: var(--text-color) !important;
  }
  
+
+ .NotFound {
+   width: 100%;
+   display: flex;
+   margin-top: 25%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+  .NotFound_h1 {
+    color: rgb(14, 225, 67);
+    font-size: 80px;
+    font-weight: 800;
+  }
+
+   .NotFound_p {
+      color: var(--text-color);
+      font-size: 20px;
+      font-weight: 500;
+   }
+ 
+   .Redirect {
+     width: 80%;
+     max-width: 500px;
+     margin-top: 40px;
+     font-size: 16px;
+     color:  rgb(14, 225, 67);
+ 
+   }
+   .ProgressBar {
+      height: 4px;
+      margin-top: 20px;
+      border-radius: 2px;
+      background-color: green;
+    }
