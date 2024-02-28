@@ -6,13 +6,14 @@ import { Title,  Meta } from '../../components/work';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 import {  Image,Container } from 'react-bootstrap';
 import Transition from '../../components/Transition';
+import NotFound from '../NotFound/NotFound';
 
 const Project = () => {
   const { projectId } = useParams();
   const project = dataportfolio.find((p) => p.id === parseInt(projectId, 10));
 
   if (!project) {
-    return <div>Project not found</div>;
+    return <NotFound/>
   }
 
   return (

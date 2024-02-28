@@ -8,6 +8,7 @@ import { Socialicons } from "./components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Project from "./pages/Project/Project"
 import dataportfolio from "./data/dataportfolio"; // Import your project data
+import NotFound from "./pages/NotFound/NotFound";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -21,6 +22,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
       unmountOnExit
     >
       <Routes location={location}>
+       <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
@@ -35,7 +37,6 @@ const AnimatedRoutes = withRouter(({ location }) => (
         ))}
 
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
