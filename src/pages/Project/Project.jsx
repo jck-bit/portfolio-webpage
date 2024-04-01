@@ -1,12 +1,13 @@
 import { useParams } from 'react-router-dom';
 import dataportfolio from '../../data/dataportfolio';
 import P from '../../components/paragraph';
-import {  Badge, Link, List, ListItem } from '@chakra-ui/react';
+import {  Badge, List, ListItem } from '@chakra-ui/react';
 import { Title,  Meta } from '../../components/work';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import {  Image,Container } from 'react-bootstrap';
+import {  Image,Container, Button } from 'react-bootstrap';
 import Transition from '../../components/Transition';
 import NotFound from '../NotFound/NotFound';
+import { MdPreview } from "react-icons/md";
+import { FaGithubAlt } from "react-icons/fa6";
 
 const Project = () => {
   const { projectId } = useParams();
@@ -34,31 +35,25 @@ const Project = () => {
             <Meta>Stack: </Meta>
             <span>{project.stack}</span>
           </ListItem>
-          <ListItem display={'flex'} alignItems={'baseline'}>
-            <Meta>Deployment: </Meta>
-            <Link 
-              href={project.deployment} 
-              textDecoration={'none'} 
-              color={'blue'}
-              target='_blank'
-              rel='noopener noreferrer'
-              >
-              {project.deployment}  <ExternalLinkIcon marginLeft={"10px"}/>
-            </Link>
-          </ListItem>
-          <ListItem display={'flex'} alignItems={'baseline'}>
-            <Meta>source Code: </Meta>
-            <Link 
-              href={project.source_code} 
-              textDecoration={'none'} 
-              color={'blue'}
-              target='_blank'
-              rel='noopener noreferrer'
-              >
-              {project.source_code} <ExternalLinkIcon marginLeft={"10px"}/>
-            </Link>
-          </ListItem>
         </List>
+        <div className="d-flex justify-content-start align-items-center">
+          <div className="preview">
+            <Button variant="secondary" href={project.deployment} target="_blank" rel="noopener noreferrer" className=''>
+              <div className="d-flex justify-content-center align-items-center">
+                <MdPreview color='rgb(255, 0, 255)' size={17}/>
+                <span>Preview</span>
+              </div>
+            </Button>
+          </div>
+          <div className="code">
+          <Button variant="primary" href={project.source_code} target="_blank" rel="noopener noreferrer">
+            <div className="d-flex justify-content-center align-items-center">
+              <FaGithubAlt size={17} color='rgb(255, 255, 0)'/> 
+              <span>Source code</span>
+            </div>
+          </Button>
+          </div>
+        </div>
         <br />
         <div>
           <Image src={project.image2} alt={project.title} fluid style={{borderRadius:"5px"}}/>

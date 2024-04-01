@@ -1,11 +1,9 @@
-
-
 const dataportfolio = [
 {
     image: "/images/works/rawg.png",
     image2: "/images/works/rawg.png",
     description: "Rawg is a game store",
-    p_tag: "used Stripe Api to make game purchases (mock purchases), then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
+    p_tag: "Used Stripe Api to make game purchases (mock purchases),then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
     source_code: "https://github.com/jck-bit/rawg-Api-Africa-s-Talking-November-Hackathon-",
     deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
     title:"Rawg Store",
@@ -18,7 +16,7 @@ const dataportfolio = [
     image: "/images/works/threats.jpg",
     image2: "/images/works/threats.jpg",
     description: "This is a social media project developed with Python Django",
-    p_tag:"This is a social media project developed with Python Django, allowing users to connect with others  share images, update profiles, and manage their content   used Docker to Facilitate containerization, enabling seamless deployment across various environments      open-source relational database management system for efficient data storage ",
+    p_tag:"This is a social media project developed with Python Django, allowing users to connect with others  share images, update profiles, and manage their content used Docker to Facilitate containerization, enabling seamless deployment across various environments open-source relational database management system for efficient data storage",
     source_code: "https://github.com/jck-bit/Threats",
     deployment:"http://ec2-54-248-149-19.ap-northeast-1.compute.amazonaws.com/",
     title:"Threats",
@@ -27,6 +25,19 @@ const dataportfolio = [
     year:2023,
     platform: "web"
 },
+{
+    image: "/images/works/express.png",
+    image2: "/images/works/expressl.png",
+    description: "ExpressL ",
+    p_tag: "This is a custom programming language i made using Typescript.",
+    source_code: "https://github.com/jck-bit/ExpressL",
+    deployment:"https://github.com/jck-bit/ExpressL",
+    title:"ExpressL programming Language(Compiler)",
+    id: 345556989749789,
+    stack: "Typescript, Deno",
+    year:2024,
+    platform: "web"
+ },
 
 {
     image: "/images/works/hackathon1.png",
