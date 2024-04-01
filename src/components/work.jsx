@@ -5,7 +5,7 @@ import Transition from "./Transition";
 export const Title = ({ children }) => (
     <Transition direction="left">
     <Box display={"flex"}>
-      <a href="/portfolio">
+      <a href="/portfolio#/portfolio">
         Projects
       </a>
     <span>

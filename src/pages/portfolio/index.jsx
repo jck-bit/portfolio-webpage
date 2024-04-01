@@ -11,7 +11,7 @@ export const Portfolio = () => {
   return (
     <Container>
       <HelmetProvider>
-        <div style={{ marginLeft: "50px" }}>
+        <div style= {{ marginLeft: "50px" }}>
           <Container>
             <Heading as="h3" fontSize={20} mb={4}>
               My Projects
@@ -22,7 +22,12 @@ export const Portfolio = () => {
                 <Transition key={project.id} direction="up" durationIn={2} durationOut={8}>
                   <Link to={`/project/${project.id}`}>
                     <div>
-                      <Image src={project.image2} alt={project.title} fluid style={{ borderRadius: "5px" }} />
+                      <Image 
+                        src={project.image2} 
+                        alt={project.title} 
+                        fluid 
+                        style={{ maxHeight:"150px" ,height:"100%",width:"100%", objectFit: "cover", borderRadius: "5px" }}
+                        />
                       <WorkGridItem
                         id={project.id}
                         title={project.title}
