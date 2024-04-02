@@ -1,13 +1,14 @@
 import { Heading, Box, Image, Badge } from "@chakra-ui/react";
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Transition from "./Transition";
+import { Link } from "react-router-dom";
 
 export const Title = ({ children }) => (
     <Transition direction="left">
     <Box display={"flex"}>
-      <a href="/portfolio#/portfolio">
+      <Link to="/portfolio">
         Projects
-      </a>
+      </Link>
     <span>
         {' '}
         <ChevronRightIcon/>{' '}
