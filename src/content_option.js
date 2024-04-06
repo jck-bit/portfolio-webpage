@@ -74,6 +74,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/jck-bit",
     linkedin: "https://linkedin.com/",
+    twitter: "https://twitter.com/KinyanjuiJack1",
 };
 export {
     meta,

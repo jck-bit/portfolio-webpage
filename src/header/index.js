@@ -25,7 +25,6 @@ const Headermain = () => {
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
           </button>
-          
           </div>
         </div>
 
