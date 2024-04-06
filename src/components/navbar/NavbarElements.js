@@ -14,6 +14,14 @@ export const Nav = styled.nav`
 	
 `;
 
+export const NavLinkItem = styled.b`
+justify-content: center;
+text-decoration: none;
+padding-right: 15px;
+height: 100%;
+cursor: pointer;
+`
+
 export const NavLink = styled(Link)`
 	display: flex;
 	align-items: center;

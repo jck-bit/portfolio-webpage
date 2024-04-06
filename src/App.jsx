@@ -9,7 +9,7 @@ import AppRoutes from "./routes";
 import "./App.css";
 import Project from './pages/Project/Project';
 import NavbarE from "./components/navbar/Navbar";
-import { Container } from "@chakra-ui/react";
+import { Container } from "react-bootstrap";
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -23,7 +23,6 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
   return (
     <Container>
-      
         <ScrollToTop>
         <NavbarE/>
           <Routes>
