@@ -4,11 +4,10 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import Transition from "../../components/Transition";
-import { Container } from "react-bootstrap";
 
 export const Home = () => {
   return (
-    <Container>
+    <>
    <Transition direction="down">
     <HelmetProvider>
       <section id="home" className="home">
@@ -77,6 +76,6 @@ export const Home = () => {
       </section>
     </HelmetProvider>
     </Transition>
-    </Container>
+    </>
   );
 };
