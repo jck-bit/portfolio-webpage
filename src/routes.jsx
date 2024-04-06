@@ -9,8 +9,10 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Project from "./pages/Project/Project"
 import dataportfolio from "./data/dataportfolio"; // Import your project data
 import NotFound from "./pages/NotFound/NotFound";
+import { Container } from "react-bootstrap";
 
 const AnimatedRoutes = withRouter(({ location }) => (
+  <Container>
   <TransitionGroup>
     <CSSTransition
       key={location.key}
@@ -40,6 +42,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
       </Routes>
     </CSSTransition>
   </TransitionGroup>
+  </Container>
 ));
 
 function AppRoutes() {

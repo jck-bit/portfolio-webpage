@@ -1,7 +1,7 @@
 section {
     flex: 1 0 auto;
     position: relative;
-    width: 95%;
+    width: 100%;
     -webkit-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
