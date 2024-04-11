@@ -26,5 +26,5 @@ npm install
 ##  To run locally:
 
 ```
- npm run start
+ npm run dev
 ```
