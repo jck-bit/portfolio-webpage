@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 	margin-left:auto;
 	align-items: center;
 	
+	
 `;
 
 export const NavLinkItem = styled.b`
@@ -20,6 +21,7 @@ text-decoration: none;
 padding-right: 15px;
 height: 100%;
 cursor: pointer;
+
 `
 
 export const NavLink = styled(Link)`
@@ -30,14 +32,17 @@ export const NavLink = styled(Link)`
 	padding-right: 15px;
 	height: 100%;
 	cursor: pointer;
+	border: none;
+	margin-right: 3px;
+	padding: 4px;
+	border-radius: 2px;
+	margin-top: 11px;
+	background: #4add35;
 	&.active {
-	  text-decoration: underline;
-	  text-underline-offset: 5px;
-
-	  
+	  background: rgb(255, 255, 0);
+	  color: #000;
 	}
 	margin-top:11px;
-
 `;
 
 export const Bars = styled(FaBars)`
