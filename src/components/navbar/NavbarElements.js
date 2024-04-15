@@ -37,7 +37,7 @@ export const NavLink = styled(Link)`
 	padding: 4px;
 	border-radius: 2px;
 	margin-top: 11px;
-	background: #4add35;
+	background: #9bb597;
 	&.active {
 	  background: rgb(255, 255, 0);
 	  color: #000;
