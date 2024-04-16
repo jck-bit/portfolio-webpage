@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 const Paragraph = styled.p`
     text-align: justify;
     white-space: pre-wrap;
-    word-break: break-all;
+    word-break: break-word;
     display:inline-block;
 
     

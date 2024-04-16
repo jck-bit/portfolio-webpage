@@ -28,8 +28,6 @@ body {
    font-size: .8185rem;
    line-height: 1.1rem;
    overflow-wrap: break-word;
-   word-wrap: break-word;
-
 }
 
 body {
@@ -76,7 +74,7 @@ a:hover {
 
 p {
    word-break: break-word;
-   hyphens: auto;
+
 }
 
 .ovhidden {
