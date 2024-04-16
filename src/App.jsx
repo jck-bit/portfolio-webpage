@@ -1,7 +1,6 @@
 import  { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
-  BrowserRouter as Router,
   useLocation, Route, Routes
 } from "react-router-dom";
 import withRouter from "./hooks/withRouter";
