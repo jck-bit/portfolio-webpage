@@ -23,7 +23,7 @@ html,
 body {
    height: 100%;
    /* font-family: 'Darker Grotesque', sans-serif; */
-   font-family: "JetBrains Mono", monospace;
+   font-family: "Shantell Sans", cursive;
    font-optical-sizing: auto;
    font-size: .8185rem;
    line-height: 1.1rem;
@@ -38,7 +38,7 @@ body {
    background-color: var(--bg-color);
    color: var(--text-color);
    /* font-family: 'Darker Grotesque', sans-serif; */
-   font-family: "JetBrains Mono", monospace;
+   font-family: "Shantell Sans", cursive;
    line-height: 1.5;
   font-optical-sizing: auto;
    -webkit-font-smoothing: antialiased;
@@ -59,7 +59,7 @@ h4,
 h5,
 h6 {
    /* font-family: 'Darker Grotesque', sans-serif; */
-   font-family: "JetBrains Mono", monospace;
+   font-family: "Shantell Sans", cursive;
    font-optical-sizing: auto;
    font-style: normal;
    font-size: 1rem;
