@@ -1,17 +1,17 @@
 const dataportfolio = [
-{
-    image: "/images/works/rawg.png",
-    image2: "/images/works/rawg.png",
-    description: "Rawg is a game store",
-    p_tag: "Used Stripe Api to make game purchases (mock purchases),then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
-    source_code: "https://github.com/jck-bit/rawg-Api-Africa-s-Talking-November-Hackathon-",
-    deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
-    title:"Rawg Store",
-    id: 3453,
-    stack: "React, SCSS, HTML",
-    year:2023,
-    platform: "web"
-},
+    {
+        image: "/images/works/music.gif",
+        image2: "/images/works/music.gif",
+        description: "Music player for Africa's talking hackathon",
+        p_tag: "This is a music app made using React and Typescript as the Frontend  during a hackathon securing the first runner-up position. The app uses Utilizes Redux for efficient state management and uses React Audio Player for seamless music playback",
+        source_code: "https://github.com/jck-bit/Hackathon_music_app",
+        deployment:"https://hackathon-music-app-dubr.vercel.app/",
+        title:"Music Player",
+        id: 5550556335,
+        stack: "Typescript, HTML, SCSS, Redux",
+        year:2023,
+        platform: "web"
+    },
 {
     image: "/images/works/threats.jpg",
     image2: "/images/works/threats.jpg",
@@ -24,6 +24,19 @@ const dataportfolio = [
     stack: "Python, Django, Docker, PostgreSQL",
     year:2023,
     platform: "web"
+},
+{
+    image: "/images/works/rust.gif",
+    image2: "/images/works/rust.gif",
+    description: "",
+    p_tag:"This is a Rust project that utilizes the tui-rs Rust library to display projects, experiences and my contact information on the commandline, the interface uses keycode characters and arrow keys to navigate between menus",
+    source_code: "https://github.com/jck-bit/Resume_cli_Tui",
+    deployment:"https://github.com/jck-bit/Resume_cli_Tui",
+    title:"Rust Resume CLI(TUI)",
+    id: 176867483876883,
+    stack: "Rust, tui-rs",
+    year:2024,
+    platform: "CLI"
 },
 {
     image: "/images/works/express.png",
@@ -39,16 +52,16 @@ const dataportfolio = [
     platform: "web"
  },
 
-{
-    image: "/images/works/hackathon1.png",
-    image2: "/images/works/hackathon2.png",
-    description: "Music palyer for Africa's talking hackathon",
-    p_tag: "This is a music app made using React and Typescript as the Frontend  during a hackathon securing the first runner-up position. The app uses Utilizes Redux for efficient state management and uses React Audio Player for seamless music playback",
-    source_code: "https://github.com/jck-bit/Hackathon_music_app",
-    deployment:"https://hackathon-music-app-dubr.vercel.app/",
-    title:"Hackathon Music Player",
-    id: 5550556335,
-    stack: "Typescript, HTML, SCSS, Redux",
+ {
+    image: "/images/works/rawg.gif",
+    image2: "/images/works/rawg.gif",
+    description: "Rawg is a game store",
+    p_tag: "Used Stripe Api to make game purchases (mock purchases),then used Africas's Talking sms Api to send  messages to users after the purchase was made. This is a hackathon project. The Africa's Talking Api only works in 23 African countries.",
+    source_code: "https://github.com/jck-bit/rawg-Api-Africa-s-Talking-November-Hackathon-",
+    deployment:"https://rawg-api-africa-s-talking-november-hackathon.vercel.app/",
+    title:"Rawg Store",
+    id: 3453,
+    stack: "React, SCSS, HTML",
     year:2023,
     platform: "web"
 },
@@ -64,6 +77,19 @@ const dataportfolio = [
     stack: "React, CSS, HTML",
     year:2022,
     platform:"web"
+ },
+ {
+    image: "/images/works/resume.gif",
+    image2: "/images/works/resume.gif",
+    description: "",
+    p_tag: "This Mini Project uses Rust to showcase my portfolio, including projects, experiences and contact information on the terminal, This project does not use any library.",
+    source_code: "https://github.com/jck-bit/rust-resume-cli",
+    deployment:"https://github.com/jck-bit/rust-resume-cli",
+    title:"Rust Resume",
+    id: 3455569864777638,
+    stack: "Rust",
+    year:2024,
+    platform:"CLI"
  },
  {
     image: "/images/works/django.png",
