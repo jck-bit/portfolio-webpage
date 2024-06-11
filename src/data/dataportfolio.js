@@ -3,7 +3,7 @@ const dataportfolio = [
         image: "/images/works/music.gif",
         image2: "/images/works/music.gif",
         description: "Music player for Africa's talking hackathon",
-        p_tag: "This is a music app made using React and Typescript as the Frontend  during a hackathon securing the first runner-up position. The app uses Utilizes Redux for efficient state management and uses React Audio Player for seamless music playback",
+        p_tag: "This is a music app made using React and Typescript as the Frontend  during the Africa's Talking hackathon that happened in November of 2023 securing the first runner-up position. The app uses Utilizes Redux for efficient state management and uses React Audio Player for seamless music playback",
         source_code: "https://github.com/jck-bit/Hackathon_music_app",
         deployment:"https://hackathon-music-app-dubr.vercel.app/",
         title:"Music Player",
